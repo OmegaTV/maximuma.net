@@ -6494,7 +6494,6 @@ window.onload = function() {
     };
 
     //for auth
-    stalker.companyId = 133;
     Stalker.prototype.getModel = function() {
         return gSTB.GetDeviceModel();
     };
@@ -6505,13 +6504,14 @@ window.onload = function() {
         return gSTB.GetDeviceMacAddress();
     };
     Stalker.prototype.buildBody = function() {
+        var companyId = 133;
         var deviceSerial = 'sn=' + this.getSerialNumber();
         var deviceModel = 'model=' + this.getModel();
         var deviceInfo = 'info=StalkerDevice';
         var version = 'version=1';
         var platform = 'platform=mag';
         var hash = 'hash=' + MD5(this.getMacAddress() + '' + this.getModel());
-        var companyId = 'company_id=' + stalker.companyId;
+        var companyId = 'company_id=' + companyId;
         console.log(deviceSerial + '&' + deviceModel + '&' + deviceInfo + '&' + version + '&' + platform + '&' + hash + '&' + companyId);
         return deviceSerial + '&' + deviceModel + '&' + deviceInfo + '&' + version + '&' + platform + '&' + hash + '&' + companyId;
     };

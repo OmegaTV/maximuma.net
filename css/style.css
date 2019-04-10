@@ -166,7 +166,7 @@
 
 .activation-modal-btn.active,
 .activation-modal-btn:hover {
-    background-color: #4f15ad
+    background-color: #E2904D;
 }
 
 .activation-modal {
@@ -1129,7 +1129,7 @@ body {
 }
 
 .settings-btn.active {
-    background-color: #4f15ad
+    background-color: #E2904D;
 }
 
 .parent-form-btn {
@@ -1204,7 +1204,7 @@ body {
     display: none;
 }
 .ch-item.item-active .epg-arrow-container {
-    background-color: #704fcc;
+    background-color: #E2904D;
 }
 /* <---- epg arrows*/
 
@@ -1214,7 +1214,7 @@ body {
     font-family: Comfortaa;
     font-size: 20px;
     width: 100%;
-    margin-bottom: 50px
+    margin-bottom: 50px;
 }
 
 .epg-day-title {
