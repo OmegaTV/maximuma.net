@@ -1,7 +1,7 @@
 {
-  "name": "omegatv",
-  "version": "2.1.2",
-  "description": "OmegaTV WebPlayer",
+  "name": "mag.maximuma.net",
+  "version": "0.0.1",
+  "description": "MaximumTV WebPlayer",
   "main": "index.js",
   "author": "",
   "license": "ISC",
@@ -27,15 +27,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OmegaTV/stalker_classic.git"
+    "url": "https://github.com/OmegaTV/maximuma.net.git"
   },
   "config": {
     "type": "app",
     "category": "apps",
     "backgroundColor": "#171717",
-    "name": "OmegaTV",
+    "name": "MaximumTV",
     "legacy": true,
-    "description": "OmegaTV Player",
+    "description": "MaximumTV WebPlayer",
     "icons": {
       "480": {
         "logoNormal": "img/480/normal.png",
