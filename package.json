@@ -1,7 +1,7 @@
 {
   "name": "MaximumTV",
-  "version": "0.0.1",
-  "description": "MaximumTV WebPlayer",
+  "version": "2.3.0",
+  "description": "MaximumTV Player",
   "main": "index.js",
   "author": "",
   "license": "ISC",
@@ -35,7 +35,7 @@
     "backgroundColor": "#171717",
     "name": "MaximumTV",
     "legacy": true,
-    "description": "MaximumTV WebPlayer",
+    "description": "MaximumTV Player",
     "icons": {
       "480": {
         "logoNormal": "img/480/normal.png",
